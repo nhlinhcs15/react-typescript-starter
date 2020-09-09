@@ -2,7 +2,7 @@
   "linterOptions": {
     "exclude": [".next/**/*", "node_modules/**/*"]
   },
-  "defaultSeverity": "error",
+  "defaultSeverity": "warning",
   "extends": ["tslint:recommended", "tslint-react", "tslint-config-prettier"],
   "rules": {
     "trailing-comma": [true, { "multiline": "always", "singleline": "never" }],
@@ -16,6 +16,7 @@
     "no-unused-variable": true,
     "no-unused-expression": [true, "allow-fast-null-checks"],
     "no-console": false,
+    "no-any": true,
     "curly": [true, "ignore-same-line"]
   }
 }
